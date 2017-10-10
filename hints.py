@@ -33,7 +33,6 @@ def _make_hints_text(digits, lookup):
          
 
 def make_hints_text(digits, lookup):
-    print list(_make_hints_text(digits, lookup))
     return "\n".join(_make_hints_text(digits, lookup))        
 
 
