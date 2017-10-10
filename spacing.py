@@ -1,14 +1,6 @@
-from helpers import split
+from helpers import split, get_digits
 
-
-DIGITS = "0123456789"
 FILENAME = "pi.txt"
-
-
-def get_digits(filename):
-    with open(filename) as f:
-        data = f.read()
-    return [ int(c) for c in data if c in DIGITS ]
 
 
 def print_digits(l):
