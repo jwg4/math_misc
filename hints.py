@@ -1,14 +1,17 @@
-from helpers import split
+import re
+
+from helpers import split, get_digits
 
 
 def make_lookup(filename):
     d = {}
     with open(filename) as f:
-        for line in readlines(f):
-            m = re.match("^(\d\d\d)   (.*)$", line)
+        for line in f.readlines():
+            m = re.match("^(\d\d\d)(   (.*))?$", line)
             if not m:
                 raise Exception("The line %s couldn't be parsed properly." % (line, ))
-            d[m.group(1)] = m.group(2)
+            if m.group(2):
+                d[m.group(1)] = m.group(3)
     return d
 
 
