@@ -19,7 +19,10 @@ def _make_hints_text(digits, lookup):
     c = 0
     for triplet in split(digits, 3):
         s = "".join(str(d) for d in triplet)
-        hint = lookup[s]
+        try:
+            hint = lookup[s]
+        except:
+            raise Exception("We don't have a hint for %s." % (s, ))
         line = "%s - %s" % (s, hint)
         yield line
 
