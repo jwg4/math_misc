@@ -39,5 +39,6 @@ def make_hints_text(digits, lookup):
 
 if __name__ == '__main__':
     digits = get_digits("pi.txt")
+    digits = digits[:30]
     lookup = make_lookup("triplets.txt")
     print make_hints_text(digits, lookup)   
