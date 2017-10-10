@@ -25,6 +25,13 @@ def _make_hints_text(digits, lookup):
             yield ""
     yield ""
          
+
 def make_hints_text(digits, lookup):
     print list(_make_hints_text(digits, lookup))
     return "\n".join(_make_hints_text(digits, lookup))        
+
+
+if __name__ == '__main__':
+    digits = get_digits("pi.txt")
+    lookup = make_lookup("triplets.txt")
+    print make_hints_text(digits, lookup)   
