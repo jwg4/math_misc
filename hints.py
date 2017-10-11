@@ -29,6 +29,9 @@ def _make_hints_text(digits, lookup):
         c = c + 1
         if not c % 2:
             yield ""
+        if not c % 10:
+            yield "---"
+            yield ""
     yield ""
          
 
