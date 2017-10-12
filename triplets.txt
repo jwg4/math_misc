@@ -158,15 +158,15 @@
 157
 158
 159
-160
-161
-162
-163
-164
-165
-166
-167
-168
+160   Letter A
+161   Letter C
+162   Letter E
+163   Letter G
+164   Letter H
+165   Letter I
+166   Letter J
+167   Letter K
+168   Letter L
 169   Letter M
 170
 171
