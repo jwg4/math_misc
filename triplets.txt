@@ -98,16 +98,16 @@
 097
 098
 099
-100
-101
-102
-103
-104
+100   Bank
+101   Hospital
+102   School
+103   Church
+104   Town Hall
 105   Prison
-106
-107
-108
-109
+106   Clock Tower
+107   Barracks
+108   University
+109   Train station
 110
 111
 112
@@ -138,16 +138,16 @@
 137
 138
 139
-140
+140   Minus 1
 141   Square root of two
-142
-143
-144
-145
-146
-147
-148
-149
+142   Pi 
+143   g
+144   lambda
+145   e
+146   Feigenbaum's constant
+147   i
+148   Infinity
+149   Zero
 150
 151
 152
@@ -188,16 +188,16 @@
 187
 188
 189
-190
-191
-192
-193
-194
-195
+190   Monday
+191   Tuesday
+192   Wednesday
+193   Thursday
+194   Wednesday
+195   Weekend
 196   Fortnight
 197   Holiday
-198
-199
+198   Saturday
+199   Sunday
 200
 201
 202
@@ -228,16 +228,16 @@
 227
 228
 229
-230
-231
-232
-233
-234
-235
-236
-237
+230   Cantor set
+231   Koch curve
+232   Koch snowflake
+233   Sierpinski gasket
+234   Cantor dust
+235   Mandelbrot set
+236   Julia set
+237   Butterfly attractor
 238   Sierpinski carpet
-239
+239   Menger sponge
 240
 241
 242
