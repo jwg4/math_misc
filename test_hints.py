@@ -1,6 +1,6 @@
 import unittest
 
-from hints import make_hints_text
+from make_hints import make_hints_text
 
 
 class TestMakeHintsText(unittest.TestCase):
