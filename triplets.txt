@@ -944,10 +944,10 @@
 943   Tractor
 944   Tank
 945   Jeep
-946
-947
-948
-949
+946   Battle-ship
+947   Missile
+948   Satellite
+949   Rocket launcher
 950
 951
 952
@@ -968,16 +968,16 @@
 967
 968
 969
-970
-971
-972
-973
+970   Nap
+971   Reflection
+972   Rumour
+973   Mist
 974   Cloud
 975   Dream
-976
-977
-978
-979
+976   Nuance
+977   Hallucination
+978   Echo
+979   Mood
 980
 981
 982
