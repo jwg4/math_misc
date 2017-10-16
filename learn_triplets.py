@@ -1,5 +1,7 @@
 import random
 
+from datetime import datetime
+
 from helpers import make_lookup
 
 
@@ -25,3 +27,5 @@ if __name__ == '__main__':
         success = check_triplet(s, lookup)
         c = c + 1
     print "Streak of %d correct answers." % (c - 1, )
+    with open("triplets_log.txt", "a") as ofile:
+        print >>ofile, "%s: %d (%d)" % (datetime.utcnow(), c - 1, len(lookup))
