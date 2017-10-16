@@ -1,4 +1,4 @@
-from helpers import split, get_digits, make_lookup
+from helpers import split, get_digits, make_lookup, get_try_number
 
 
 def _make_hints_text(digits, lookup):
@@ -27,6 +27,7 @@ def make_hints_text(digits, lookup):
 
 if __name__ == '__main__':
     digits = get_digits("pi.txt")
-    digits = digits[:60]
+    n = get_try_number("success_number")
+    digits = digits[:n]
     lookup = make_lookup("triplets.txt")
     print make_hints_text(digits, lookup)   

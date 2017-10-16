@@ -26,3 +26,15 @@ def make_lookup(filename):
             if m.group(2):
                 d[m.group(1)] = m.group(3)
     return d
+
+
+def get_try_number(filename):
+    s = get_success_number(filename)
+    return (s / 30 + 1) * 30
+
+
+def get_success_number(filename):
+    with open(filename, "r") as infile:
+        s = infile.read()
+        s.strip()
+        return int(s)
