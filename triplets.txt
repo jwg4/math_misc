@@ -28,16 +28,16 @@
 027
 028
 029
-030
-031
-032
-033
-034
-035
-036
-037
-038
-039
+030   Pianola roll
+031   Wax cylinder
+032   78 record
+033   LP
+034   Vinyl single
+035   8-track cassette
+036   Cassette
+037   CD
+038   MiniDisc
+039   MP3
 040
 041
 042
@@ -198,19 +198,19 @@
 197   Holiday
 198   Saturday
 199   Sunday
-200
-201
-202
-203
-204
-205
-206
-207
-208
-209
-210
-211
-212
+200   Year
+201   January
+202   February
+203   March
+204   April
+205   May
+206   June
+207   July
+208   August
+209   September
+210   October
+211   November
+212   December
 213
 214
 215
@@ -278,16 +278,16 @@
 277
 278
 279   Rubik's cube
-280
-281
-282
-283
-284
-285
-286
-287
-288
-289
+280   Colossus
+281   ENIAC
+282   Mainframe
+283   Minicomputer
+284   Apple II
+285   Amiga
+286   IBM PC
+287   Archimedes
+288   IMac
+289   Raspberry Pi
 290
 291
 292
@@ -298,14 +298,14 @@
 297
 298
 299
-300
-301
-302
-303
-304
-305
-306
-307
+300   Drum
+301   Cymbal
+302   Triangle
+303   Drum machine
+304   Tympan
+305   Bongos
+306   Xylophone
+307   Wind machine
 308
 309
 310
@@ -398,16 +398,16 @@
 397
 398
 399   Streetlight
-400
-401
-402
-403
-404
-405
-406
-407
-408
-409
+400   Bad request 
+401   Unauthorized
+402   Payment required
+403   Forbidden
+404   Not found
+405   Method not allowed
+406   Not Acceptable
+407   Proxy
+408   Timeout
+409   Conflict
 410
 411
 412
@@ -618,16 +618,16 @@
 617
 618
 619
-620
-621
-622
-623
-624
-625
-626
-627
-628
-629
+620   China
+621   India
+622   Saudi Arabia
+623   Iran
+624   Turkey
+625   Vietnam
+626   Thailand
+627   Mongolia
+628   Korea
+629   Afghanistan
 630
 631
 632
@@ -808,16 +808,16 @@
 807
 808
 809
-810
-811
-812
-813
-814
-815
-816
-817
-818
-819
+810   Newspaper
+811   Xmas card
+812   Kitchen roll
+813   Envelope
+814   Letter
+815   Magazine
+816   Book
+817   Catalogue
+818   Leaflet
+819   Sticker
 820   Fountain pen
 821   Pencil
 822   Biro
@@ -988,13 +988,13 @@
 987
 988
 989
-990
-991
-992
-993
-994
-995
-996
-997
-998
-999
+990   Hades
+991   The Styx
+992   Hell
+993   Paradise
+994   Purgatory
+995   Limbo
+996   The void
+997   Reincarnation
+998   Happy hunting ground
+999   Nirvana
