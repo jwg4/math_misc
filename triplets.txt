@@ -788,16 +788,16 @@
 787
 788
 789
-790
-791
-792
+790   Winston Churchill
+791   Harold Wilson
+792   Edward Heath
 793   Margaret Thatcher
-794
-795
-796
-797
-798
-799
+794   John Major
+795   Tony Blair
+796   Gordon Brown
+797   David Cameron
+798   Theresa May
+799   Boris Johnson
 800
 801
 802
@@ -819,15 +819,15 @@
 818
 819
 820   Fountain pen
-821
-822
-823
-824
-825
-826
-827
-828
-829
+821   Pencil
+822   Biro
+823   Quill
+824   Felt tip
+825   Rubber eraser
+826   Ruler
+827   Pencil sharpener
+828   Tipp-ex
+829   Pencil case
 830
 831
 832
