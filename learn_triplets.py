@@ -7,11 +7,15 @@ from helpers import make_lookup
 
 def check_triplet(number, name):
     name = lookup[number]
-    guess = input("%s?  " % name)
-    actual = lookup[str(guess)]
-    if guess != int(number):
+    guess = raw_input("%s?  " % name)
+    try:
+        actual = lookup[guess]
+    catch:
+        actual = None
+    if int(guess) != int(number):
         print "No! %s is %s" % (name, number)
-        print "(%s is %s)" % (guess, actual)
+        if actual:
+            print "(%s is %s)" % (guess, actual)
         return False
     else:
         print ":)"
