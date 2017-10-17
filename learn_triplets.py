@@ -10,7 +10,7 @@ def check_triplet(number, name):
     guess = raw_input("%s?  " % name)
     try:
         actual = lookup[guess]
-    catch:
+    except:
         actual = None
     if int(guess) != int(number):
         print "No! %s is %s" % (name, number)
