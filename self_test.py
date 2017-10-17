@@ -13,11 +13,11 @@ def get_input():
 def compare_input(user, real):
     c = 0
     for a, b in zip(user, real):
+        c = c + 1
         if a != b:
             raise Exception("Incorrect digit %d: entered %d, should be %d"
                 % (c, a, b)
             )
-        c = c + 1
     return c
 
 
