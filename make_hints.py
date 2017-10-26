@@ -29,5 +29,10 @@ if __name__ == '__main__':
     digits = get_digits("pi.txt")
     n = get_try_number("success_number")
     digits = digits[:n]
+    if len(digits) < n:
+        raise Exception(
+            "We only have %d digits, need %d to build the hints."
+            % (len(digits), n)
+        ) 
     lookup = make_lookup("triplets.txt")
     print make_hints_text(digits, lookup)   
