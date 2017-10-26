@@ -9,8 +9,9 @@ def print_digits(l):
 
 
 def make_line(l):
-    FORMAT = "  ".join(["%d%d%d %d%d%d"] * 5)
-    return FORMAT % tuple(l)
+    if len(l) == 30:
+        FORMAT = "  ".join(["%d%d%d %d%d%d"] * 5)
+        return FORMAT % tuple(l)
 
 
 if __name__ == '__main__':
