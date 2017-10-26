@@ -58,16 +58,16 @@
 057
 058
 059
-060
-061
-062
-063
-064
-065
-066
-067
-068
-069
+060   New York
+061   Los Angeles
+062   San Francisco
+063   Chicago
+064   Austin
+065   Boston
+066   Washington DC
+067   Baltimore
+068   Seattle
+069   Miami
 070
 071
 072
@@ -78,16 +78,16 @@
 077
 078
 079
-080
-081
-082
-083
-084
-085
-086
-087
-088
-089
+080   Paris
+081   Berlin
+082   Rome
+083   Venice
+084   Moscow
+085   Athens
+086   Amsterdam
+087   Brussels
+088   Madrid
+089   Warsaw
 090
 091
 092
@@ -108,16 +108,16 @@
 107   Barracks
 108   University
 109   Train station
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
+110   Sun
+111   Mercury
+112   Venus
+113   Earth
+114   Mars
+115   Jupiter
+116   Saturn
+117   Uranus
+118   Neptune
+119   Pluto
 120
 121
 122
@@ -338,16 +338,16 @@
 337
 338
 339
-340
-341
-342
-343
-344
-345
-346
-347
-348
-349
+340   The Guardian
+341   The Financial Times
+342   The Telegraph
+343   The Daily Mail
+344   The Sun
+345   The New York Times
+346   Le Monde
+347   Der Spiegel
+348   Ha'aretz
+349   The Baltimore Sun
 350
 351
 352
@@ -508,11 +508,11 @@
 507
 508
 509
-510
-511
-512
-513
-514
+510   Holy grail
+511   Golden Fleece
+512   Sickle and hammer
+513   Excalibur
+514   
 515
 516
 517
@@ -638,16 +638,16 @@
 637
 638
 639
-640
-641
-642
+640   Napkin ring
+641   Fork
+642   Spoon
 643   Knife
-644
-645
-646
-647
-648
-649
+644   Potato peeler
+645   Ladle
+646   Cheese grater
+647   Spatula
+648   Can opener
+649   Bottle opener
 650
 651
 652
@@ -978,16 +978,16 @@
 977   Hallucination
 978   Echo
 979   Mood
-980
-981
-982
-983
-984
-985
-986
-987
-988
-989
+980   Narnia
+981   Middle-Earth
+982   Atlantis
+983   Discworld
+984   Westeros
+985   Neverland
+986   Sunnydale
+987   Liliput
+988   Oz
+989   Panem
 990   Hades
 991   The Styx
 992   Hell
